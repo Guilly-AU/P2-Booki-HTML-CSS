@@ -139,9 +139,9 @@ nav a:hover {
     width: 880px;
     border-radius: 20px;
     padding: 20px;
-    margin-top: 20px;
+    margin-top: 40px;
     justify-content: center;
-    
+    padding-top: 40px;
 }
 
 .card-accommodationflex {
@@ -211,7 +211,8 @@ section a {
     width: 420px;
     border-radius: 20px;
     padding: 20px;
-    margin-top: 20px;
+    padding-top: 40px;
+    margin-top: 40px;
     margin-left: 20px;
 }
 
@@ -226,7 +227,7 @@ section a {
 .card-popular {
     display: flex;
     flex-direction: row;
-    width: 340px;
+    width: 380px;
     height: 145px;
     padding: 5px;
     background-color: white;
@@ -244,6 +245,7 @@ section a {
 }
 
 .card-populartext {
+    margin-top: 10px;
     margin-left: 10px;
     line-height: 1.5em;
     display: flex;
@@ -274,4 +276,5 @@ section a {
 .article-aside {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
