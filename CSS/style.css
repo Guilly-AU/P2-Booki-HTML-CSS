@@ -5,7 +5,7 @@
     max-width: 1440px;
 }
 
-main{
+main, footer {
     margin-left: 30px;
 }
 
@@ -47,8 +47,8 @@ nav a:hover {
 .search-bar {
     display: flex;
     flex-direction: row;
-    align-items: center; 
-    margin-top: 20px;   
+    justify-content: start; 
+    margin-top: 20px;  
 }
 
 .bar-icone {
@@ -64,18 +64,25 @@ nav a:hover {
     font-weight: 700;
 }
 
-.bar-button {
+.bar-mobile {
     background-color: #0065fc;
     padding: 15px;
     border: 1px #0065fc solid;
     border-radius: 0px 15px 15px 0px;
-    color: white;
     font-weight: 700;
     cursor: pointer;
 }
 
+button span {
+    color: white;
+}
+
 .bar-button:hover {
     opacity: 70%;
+}
+
+.bar-mobile i{
+    display: none;
 }
 
 /* filters section*/
@@ -89,20 +96,20 @@ nav a:hover {
 
 .filtres-section {
     display: flex;
-    align-items: center;
+    flex-direction: row;
 }
 
 .thematic i{
     color: #0065fc;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .thematic {
     border: 2px #d9d9d9 solid;
     border-radius: 30px;
-    padding: 10px;
-    margin-left: 20px;
+    padding: 5px;
+    margin-left: 30px;
     font-weight: 700;
 }
 
@@ -110,9 +117,6 @@ nav a:hover {
     background-color: #deebff;
 }
 
-.bar-mobile {
-    display: none;
-}
 
 /*Info*/
 
@@ -255,12 +259,15 @@ section a {
 .review-popular {
     display: flex;
     align-items: flex-end;
+    -ms-flex-item-align: auto;
     height: 100%;
     margin-bottom: 5px;
+    letter-spacing: normal;
     }
 
 .review-popular i{
     color: #0065fc;
+    letter-spacing: 3px;
 }
 
 .card-popular i:last-of-type {
@@ -271,9 +278,9 @@ section a {
     opacity: 70%;
 }
 
-/*article-aside*/
+/*section-aside*/
 
-.article-aside {
+.section-aside {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -314,3 +321,32 @@ section a {
     flex-wrap: wrap;
 }
 
+/*Footer*/
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #d9d9d9;
+    margin-top: 50px;
+    padding: 50px;
+    padding-left: 0px;
+    margin-bottom: 50px;
+    }
+
+footer div {
+    
+}
+
+ul, a{
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+    line-height: 2em;
+    text-decoration: none;
+    mar
+}
+
+ul, a:hover {
+    color: #0065fc;
+}
