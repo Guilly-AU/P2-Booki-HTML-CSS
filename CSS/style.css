@@ -265,7 +265,6 @@ section a {
 .review-popular {
     display: flex;
     align-items: flex-end;
-    -ms-flex-item-align: auto;
     height: 100%;
     margin-bottom: 5px;
     letter-spacing: normal;
@@ -348,7 +347,6 @@ ul, a{
     margin-top: 10px;
     line-height: 2em;
     text-decoration: none;
-    mar
 }
 
 ul, a:hover {
