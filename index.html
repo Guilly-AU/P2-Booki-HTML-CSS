@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <title>Booki</title>
     <meta name="Booki" content="La description visible sur les moteurs de recherche">
+    <!-- media queries -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Link CSS -->
     <link href="CSS/style.css" rel="stylesheet">
     <!-- Font GOOGLE Raleway -->
@@ -20,7 +22,7 @@
     <header>
         <nav>
             <img src="Images/logo/Booki.png" alt="Logo Booki" class="logo-booki">
-            <div>
+            <div class="mobile-nav">
                 <a href="#accommodation">Hébergements</a> 
                 <a href="#activity">Activités</a>
             </div>
@@ -193,63 +195,65 @@
                     <h2>Les plus populaires</h2>
                     <i class="fa-solid fa-chart-line"></i>                            
                 </div>
-                <!-- card 7 -->
-                <article class="card-popularflex">
-                    <a href="#" class='link'>
-                        <div class="card-popular">
+                <div class="card-flex">    
+                    <!-- card 7 -->
+                    <article class="card-popularflex">
+                        <a href="#" class='link'>
+                            <div class="card-popular">
                             <img src="Images/hebergements/4_small/hotel_soleil_matin.jpg" alt="Hôtel le soleil du matin">
-                            <div class="card-populartext">
-                                <h3>Hôtel le soleil du matin</h3>
-                                <p>Nuit à partir de 128<strong>€</strong></p>
-                                <div class="review-popular">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
+                                <div class="card-populartext">
+                                    <h3>Hôtel le soleil du matin</h3>
+                                    <p>Nuit à partir de 128<strong>€</strong></p>
+                                    <div class="review-popular">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </a>
-                </article>
-                <!-- card 8 -->
-                <article class="card-popularflex">
-                    <a href="#" class='link'>
-                        <div class="card-popular">
-                            <img src="Images/hebergements/4_small/coeur_eau.jpg" alt="Chambres d'hôtes au coeur de l'eau">
-                            <div class="card-populartext">
-                                <h3>Chambres d'hôtes au coeur de l'eau</h3>
-                                <p>Nuit à partir de 71<strong>€</strong></p>
-                                <div class="review-popular">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
+                        </a>
+                    </article>
+                    <!-- card 8 -->
+                    <article class="card-popularflex">
+                        <a href="#" class='link'>
+                            <div class="card-popular">
+                                <img src="Images/hebergements/4_small/coeur_eau.jpg" alt="Chambres d'hôtes au coeur de l'eau">
+                                <div class="card-populartext">
+                                    <h3>Chambres d'hôtes au coeur de l'eau</h3>
+                                    <p>Nuit à partir de 71<strong>€</strong></p>
+                                    <div class="review-popular">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </a>
-                </article>
-                <!-- card 9 -->
-                <article class="card-popularflex">
-                    <a href="#" class='link'>
-                        <div class="card-popular">
-                            <img src="Images/hebergements/4_small/hotel_tout.jpg" alt="Hôtel bleu et blanc">
-                            <div class="card-populartext">
-                                <h3>Hôtel bleu et blanc</h3>
-                                <p>Nuit à partir de 68<strong>€</strong></p>
-                                <div class="review-popular">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
+                        </a>
+                    </article>
+                    <!-- card 9 -->
+                    <article class="card-popularflex">
+                        <a href="#" class='link'>
+                            <div class="card-popular">
+                                <img src="Images/hebergements/4_small/hotel_tout.jpg" alt="Hôtel bleu et blanc">
+                                <div class="card-populartext">
+                                    <h3>Hôtel bleu et blanc</h3>
+                                    <p>Nuit à partir de 68<strong>€</strong></p>
+                                    <div class="review-popular">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </a>
-                </article>
+                        </a>
+                    </article>
+                </div>
             </aside>
         </div>
         <!-- activity section -->
@@ -299,7 +303,7 @@
     <footer>
         <div>
             <h3>À propos</h3>
-            <ul>
+            <ul class="list-header">
                 <li><a href="#">Fonctionnement du site</a></li>
                 <li><a href="#">Conditions générales</a></li>
                     <li><a href="#">Données et confidentialité</a></li>
@@ -307,14 +311,14 @@
         </div>
         <div>
             <h3>Nos Hébergements</h3>
-            <ul>
+            <ul class="list-header">
                 <li><a href="#">Charte qualité</a></li>
                 <li><a href="#">Proposer votre hôtel</a></li>
             </ul>
         </div>
         <div>
             <h3>Assistance</h3>
-            <ul>
+            <ul class="list-header">
                 <li><a href="#">Centre d'aide</a></li>
                 <li><a href="#">Nous contacter</a></li>
             </ul>
