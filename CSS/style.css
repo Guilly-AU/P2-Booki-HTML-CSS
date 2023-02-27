@@ -31,10 +31,6 @@ a:hover {
     opacity: 70%;
 }
 
-main, footer {
-    margin-left: 15px;
-}
-
 /*Header*/
 
 .logo-booki {
@@ -58,7 +54,6 @@ nav a {
 
 nav a:hover {
     color: #0065fc;
-    padding: 30px;
     border-top: 2px solid #0065fc;
 }
 
@@ -349,7 +344,7 @@ ul {
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     * {
-        background-color: green;
+        
     }
     
     .section-aside {
@@ -383,7 +378,114 @@ ul {
 /* media queries mobile */
 
 @media screen and (max-width: 768px) {
-    * {
-        background-color: rgb(0, 87, 128);
+      
+    /* nav */
+
+    .mobile-nav a {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;      
     }
+
+    nav {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .mobile-nav {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav a:hover {
+        color: #0065fc;
+        border-top: 0px solid #0065fc;
+        border-bottom: 2px solid #0065fc;
+    }
+    
+    /* search bar */
+
+    button span {
+        display: none;
+    }
+    
+    .search-bar {
+        align-items: center;
+    }
+    
+    .bar-mobile i{
+        display: contents;
+        color: white;
+    }
+
+    /* filtres section */
+
+    .filtres-section {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .thematic {
+        width: 50%;
+    }
+
+    /* section - aside */
+
+    .section-aside {
+        flex-direction: column-reverse;
+    }
+
+    /* accommodation section */
+
+    .accommodation-section {
+        width: auto;
+        background-color: white;
+    }
+
+    .card-accommodationflex {
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    .card-accommodation {
+        width: auto;
+    }
+
+    /* popular section */
+
+    .popular-section {
+        width: auto;
+        flex-direction: row;
+        border-radius: inherit;
+    }
+
+    /* activity section */
+
+    .activity-section {
+        width: auto;
+    }
+
+    .card-activityflex {
+        flex-direction: column;
+    }
+
+    .card-activity {
+        height: auto;
+    }
+
+    .card-activity img {
+        height: 134px;
+    }
+
+    /* footer */
+
+    footer {
+        flex-direction: column;
+        
+    }
+
+
+
 }
