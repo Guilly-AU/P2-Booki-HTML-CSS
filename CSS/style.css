@@ -32,7 +32,7 @@ a:hover {
 }
 
 main, footer {
-    margin-left: 30px;
+    margin-left: 15px;
 }
 
 /*Header*/
@@ -216,7 +216,8 @@ button span {
 
 .popular-title {
     display: flex;
-    justify-content: space-between;   
+    justify-content: space-between;
+    align-items: center;   
 }
 
 .popular-title i {
@@ -240,12 +241,13 @@ button span {
     flex-direction: column;
    }
 
+.card-popularhorizontal {
+    display: flex;
+}
+
 .card-popular {
     display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 145px;
-    box-sizing: border-box;
+    flex-direction: column;
     padding: 5px;
     background-color: white;
     border-radius: 20px;
@@ -363,10 +365,10 @@ ul {
     .card-flex {
         flex-direction: row;
         justify-content: space-between;
-        }
+    }
     
     .card-popular {
-        width: 250px;
+        width: 30%;
     }
 
     .card-activity {
