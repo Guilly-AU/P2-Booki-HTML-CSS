@@ -103,7 +103,7 @@ button span {
 
 .filtres {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     flex-direction: row;
     margin-top: 20px;
 }
@@ -349,6 +349,7 @@ footer {
     margin-top: 10px;
     line-height: 2em;
     text-decoration: none;
+    width: 200px;
 }
 
 /* Media queries tablet */
