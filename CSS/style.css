@@ -1,11 +1,12 @@
 * {
     font-family: 'Raleway', sans-serif;
     color: black;
-    max-width: 1440px;
+    
 }
 
 body {
-    margin-left: 20px;
+    margin: 0 auto;
+    max-width: 1440px;
 }
 
 H3 {
@@ -150,7 +151,7 @@ button span {
 /*accommodation section*/
 
 .accommodation-section {
-    background-color: #d9d9d9;
+    background-color: #f2f2f2;
     width: 60%;
     border-radius: 20px;
     padding: 20px;
@@ -212,7 +213,7 @@ button span {
 /*aside popular section*/
 
 .popular-section {
-    background-color: #d9d9d9;
+    background-color: #f2f2f2;
     width: 30%;
     border-radius: 20px;
     padding: 20px;
@@ -336,11 +337,11 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    background-color: #d9d9d9;
+    background-color: #f2f2f2;
     margin-top: 50px;
-    padding: 50px;
-    padding-left: 0px;
-    margin-bottom: 50px;
+    padding: 50px 0px;
+    
+    
     }
 
 .list-header {
