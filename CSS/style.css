@@ -1,6 +1,6 @@
 * {
     font-family: 'Raleway', sans-serif;
-    color: black;
+    color: black;  
 }
 
 body {
@@ -151,7 +151,7 @@ button span {
 
 .accommodation-section {
     background-color: #f2f2f2;
-    width: 60%;
+    width: 61%;
     border-radius: 20px;
     padding: 20px;
     margin-top: 40px;
@@ -173,7 +173,7 @@ button span {
 }
 
 .card-accommodation {
-    width: 30%;
+    width: 31%;
     padding: 5px;
     background-color: white;
     border-radius: 20px;
@@ -194,7 +194,7 @@ button span {
 }
 
 .card-accommodationtext {
-    margin-left: 10px;
+    margin-left: 6px;
 }
 
 .card-accommodation i {
@@ -356,6 +356,10 @@ footer {
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     
+    body {
+        margin: 0px 10px;
+    }
+
     .section-aside {
         flex-direction: column;
     }
@@ -383,7 +387,12 @@ footer {
 /* media queries mobile */
 
 @media screen and (max-width: 768px) {
-      
+    
+    body {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
     /* nav */
 
     nav {
