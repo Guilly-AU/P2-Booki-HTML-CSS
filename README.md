@@ -6,8 +6,8 @@ To begin with, I established my development environment, notably utilizing VS Co
 
 # Technologies used
 
-[![html5](https://github.com/Guilly-AU/P2-Booki-HTML-CSS/assets/125476287/60d6e215-56c6-4006-bfba-959413b03581)][1]
-[![css3](https://github.com/Guilly-AU/P2-Booki-HTML-CSS/assets/125476287/027b3e05-38d4-4a53-8f23-ba3cc8d361b4)][2]
+[![html5](https://user-images.githubusercontent.com/125476287/281257766-60d6e215-56c6-4006-bfba-959413b03581.png)][1]
+[![css3](https://user-images.githubusercontent.com/125476287/281257775-027b3e05-38d4-4a53-8f23-ba3cc8d361b4.png)][2]
 
 [1]: https://www.w3schools.com/html/
 [2]: https://www.w3schools.com/css/
