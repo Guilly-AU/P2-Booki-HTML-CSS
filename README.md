@@ -17,7 +17,7 @@ To begin with, I established my development environment, notably utilizing VS Co
 • Implement a responsive interface with HTML and CSS\
 • Integrate content according to a design with HTML and CSS\
 • Version the project with Git and GitHub\
-• Set up a front-end development environment\
+• Set up a front-end development environment
 
 # How to launch the project with npm
 
